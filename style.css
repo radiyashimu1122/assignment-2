@@ -89,10 +89,7 @@ header {
   background-image: linear-gradient(to bottom  , rgba(0, 0, 0, 1)
   5%, rgba(0, 0, 0, 0) 50%), url(images/banner.png) ;
   border-radius: 1rem;
-
-
   border-radius: 1rem;
-
    background-size: cover;
    height: 500px;
 }
@@ -124,7 +121,7 @@ form{
   display: inline-flex;
   padding: 1rem;
 margin-left: 22%;
-margin-right: 22%;
+margin-right: 25%;
   gap: 1.5rem;
   border-radius: 0.5rem;
   background: rgba(255, 255, 255, 0.30);
@@ -144,6 +141,56 @@ background-color: #FF5400;
 border: none;
 color: #FFF;
 }
+main{
+  margin-top: 50px;
+  width: 100%;
+  display: inline-flex;
+background-size: cover;
+height:500px;
+}
+.our-popular-tour{
+  width: 60%;
+}
+.rectangle4{
+  width: 40%;
+}
+.most{
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
+}
+.list-item{
+  /* margin-left: 0%; */
+ margin-left: 1%;
+  padding-left: 1%;
+  margin-top: 1%;
+  width: 32.8125rem;
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
+}
+.study-tour{
+  margin-top: 2%;
+  width: 33.150rem;
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
+}
+.read-more{
+margin-top: 3%;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 1.25rem;
+font-weight: 800;
+}
+/* rectangle4{
+  width: 33.75rem;
+height: 34.375rem;
+padding-bottom: 5%;
+} */
 
 /* responsive design for mobile */
 
@@ -158,8 +205,9 @@ color: #FFF;
     }
 
     .menu ul {
+   
       flex-direction: column;
-        top: 100px;
+        /* top: 100px; */
         margin-top:10%;
     }
     .hidden{
@@ -168,7 +216,6 @@ color: #FFF;
     .menu-item{
       flex-direction: column;
         /* gap: 0; */
-      
     }
     .menu-img:focus ~ div ul{
         position: absolute;
@@ -178,7 +225,6 @@ color: #FFF;
         align-items: center;
         justify-content: center;
     }
-
     .menu-img:focus ~ div ul li.hidden{
         display: block;  
     }
@@ -193,6 +239,32 @@ color: #FFF;
 flex-direction: column;
 gap: 1rem;
 
-
+    }
+    main{
+      flex-direction: column;
+    }
+    .most{
+      width: 20.9375rem;
+      font-size: 0.875rem;
+      line-height: 1.5rem;
+    }
+    .list-item{
+      font-size: 0.875rem;
+      width: 20.9375rem;
+      line-height: 1.5rem; 
+    }
+    .study-tour{
+  font-size: 0.875rem;
+  width: 20.9375rem;
+  font-weight: 400;
+  line-height: 1.5rem; 
+    }
+    .our-popular-tour{
+      flex-direction: column;
+    }
+    .rectangle4 .one-photo{
+      width: 20.9375rem;
+      height: 21.375rem;
+      flex-shrink: 0;
     }
 }
