@@ -201,19 +201,80 @@ font-family: Mulish;
 font-size: 1rem;
 font-weight: 400;
 }
-.mother-div{
-margin-left: 10%;
-}
-.row{
-  text-align: center;
-  display: flex;
-}
 .row-one{
   display: flex;
 }
+.bandarban{
+  background-image: url(./Images/rectangle5.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #FFF;
+  padding: 150px ;
+}
+.indonesia{
+  background-image: url(./Images/indoneshia.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #FFF;
+  padding: 150px ;
+}
+.row-two{
+  display: flex;
+}
+.srilanka{
+  background-image: url(./Images/shrelanka.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #FFF;
+  padding: 150px ;
+}
+.america{
+background-image: url(./Images/amerika.png);
+background-size: cover;
+  width: 100%;
+height: 50px;
+  text-align: center;
+  color: #FFF;
+  padding: 150px ;
+}
+.kashmir{
+  background-image: url(./Images/kashmir.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #FFF;
+  padding: 150px ;
+}
+.row-three{
+  display: flex;
+}
 
+.bangladesh{
+  background-image: url(./Images/bangladesh.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #FFF;
+  padding: 150px ;
+}
+.maldivs{
+  background-image: url(./Images/maldivs.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #FFF;
+  padding: 150px ;
+}
 
-/* responsive design for mobile */
 @media screen and (max-width: 600px) {
     .body{
       
@@ -306,18 +367,12 @@ font-size: 0.875rem;
 margin-bottom: 0%;
 padding-bottom: 0%;
 }
-.mother-div{
+.photo-collage{
   width: 20.9375rem;
 height: 11rem;
   flex-direction: column;
   margin: auto;
 }
-mother-div,.row-one,.rectangle5,.row-two,.rectangle6,.row-three,.rectangle11{
-  display: flex;
-  flex-direction: column;
-  width: 20.9375rem;
-  height: 11rem;
-  margin-top: 2%;
-  /* margin: auto; */
-}
+
+
 }
