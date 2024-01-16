@@ -93,7 +93,7 @@ header {
    background-size: cover;
    height: 500px;
 }
-.tag-and-paragraph{
+.tag-and-paragraph {
   padding-top: 1%;
   text-align: center;
 }
@@ -186,14 +186,23 @@ font-family: Mulish;
 font-size: 1.25rem;
 font-weight: 800;
 }
-/* rectangle4{
-  width: 33.75rem;
-height: 34.375rem;
-padding-bottom: 5%;
-} */
+.choose-your{
+  margin-top: 12%;
+  color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 2.5rem;
+font-weight: 800;
+}
+.we-help{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
 
+}
 /* responsive design for mobile */
-
 @media screen and (max-width: 600px) {
     .body{
       
@@ -265,6 +274,19 @@ gap: 1rem;
     .rectangle4 .one-photo{
       width: 20.9375rem;
       height: 21.375rem;
-      flex-shrink: 0;
+      flex-direction: column;
     }
+.destination{
+margin-top: 100%;
+padding-top: 40%;
+  width: 23.4375rem;
+  height: 464.3125rem;
+}
+.choose-your{
+font-size: 1.25rem;
+}
+.we-help{
+  width: 19.3125rem;
+font-size: 0.875rem;
+}
 }
