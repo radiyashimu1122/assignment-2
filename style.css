@@ -133,6 +133,16 @@ input{
   width: 10.875rem;
 height: 3.25rem;
 }
+#cars{
+  color: rgb(117 117 117);
+  padding: 10px;
+  background-color: #FFF;
+  border-radius: 0.5rem;
+  border: none;
+  text-align: center;
+  width: 10.875rem;
+height: 3.25rem;
+}
 button{
   width: 10.875rem;
 height: 3.25rem;
@@ -368,11 +378,12 @@ margin-bottom: 0%;
 padding-bottom: 0%;
 }
 .photo-collage{
-  width: 20.9375rem;
-height: 11rem;
   flex-direction: column;
-  margin: auto;
 }
-
+.photo-collage .row-one,.bandarban{
+  flex-direction: column;
+  width: 20.9375rem;
+  height: 11rem;
+}
 
 }
