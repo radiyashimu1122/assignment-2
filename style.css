@@ -284,7 +284,69 @@ height: 50px;
   color: #FFF;
   padding: 150px ;
 }
-
+.choose-card-container {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.choose-card-details {
+  text-align: center;
+}
+.card-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.card-sub-title {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.card-description {
+  display: flex;
+  justify-content: center;
+}
+.card-info-1 {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  width: 573px;
+  height: 284px;
+  margin-right: 20px;
+  padding: 20px;
+  box-shadow: 0 45px 65px rgba(0, 0, 0, 0.50), 0 35px 22px rgba(0, 0, 0, 0.16);
+}
+.card-one {
+  width: 64px;
+  height: 64px;
+  font-size: 70px;
+}
+.best-price {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.card-info-2 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  width: 573px;
+  height: 284px;
+  padding: 20px;
+  box-shadow: 0 45px 65px rgba(0, 0, 0, 0.50), 0 35px 22px rgba(0, 0, 0, 0.16);
+}
+.card-info-3 {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  width: 573px;
+  height: 284px;
+  margin-left: 35%;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 0 45px 65px rgba(0, 0, 0, 0.50), 0 35px 22px rgba(0, 0, 0, 0.16);
+  margin-bottom: 50px;
+}
 @media screen and (max-width: 600px) {
     .body{
       
@@ -306,7 +368,6 @@ height: 50px;
     }
     .menu-item{
       flex-direction: column;
-        /* gap: 0; */
     }
     .menu-img:focus ~ div ul{
         position: absolute;
@@ -320,7 +381,6 @@ height: 50px;
         display: block;  
     }
     .banner{
-      /* margin-top: 70%; */
       background-position: center;
       width: 20.9375rem;
    height: 100%;
@@ -384,6 +444,24 @@ padding-bottom: 0%;
   flex-direction: column;
   width: 20.9375rem;
   height: 11rem;
+}
+
+.card-description {
+  flex-direction: column;
+}
+.choose-card-container {
+  width: 400px;
+  padding:15px;
+}
+.card-info-1 {
+  width:400px;
+}
+.card-info-2 {
+  width: 400px;
+}
+.card-info-3 {
+  margin-left: 5px;
+  width: 400px;
 }
 
 }
