@@ -581,11 +581,16 @@ margin-bottom: 0%;
 padding-bottom: 0%;
 }
 /* collage photo */
-.row-one, .row-two, .row-three{
-  
-  flex-direction: column;
-  padding: 0%;
-  margin: 0;
+/* .row-one, .row-two, .row-three{ */
+  /* flex-direction: column; */
+  /* padding: 0%;
+  margin: 0; */
+/* } */
+.bandarban{
+  width: 400px;
+}
+.indonesia{
+  width: 400px;
 }
  .choose-your{
 font-size: 1.5rem;
