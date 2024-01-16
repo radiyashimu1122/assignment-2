@@ -307,12 +307,23 @@ margin-bottom: 0%;
 padding-bottom: 0%;
 }
 .mother-div{
-  margin-top: 0%;
-  padding-top: 0%;
-  margin-bottom: 100%;
-  /* padding-bottom: 100%; */
-  background-position: center;
+  width: 20.9375rem;
+height: 11rem;
   flex-direction: column;
+  margin: auto;
 }
-
+mother-div,.row-one,.rectangle5{
+  display: flex;
+  flex-direction: column;
+  width: 20.9375rem;
+  height: 11rem;
+  margin: auto;
+}
+mother-div,.row-three,.rectangle11{
+  display: flex;
+  flex-direction: column;
+  width: 20.9375rem;
+  height: 11rem;
+  margin: auto;
+}
 }
